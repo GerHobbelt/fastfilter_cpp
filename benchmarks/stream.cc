@@ -61,7 +61,7 @@ void stream_benchmark(size_t start_size, size_t max_size,
     std::cout << std::endl;
   }
 }
-int main() {
+int main(void) {
   stream_benchmark(100'000, 100'000'000);
   return EXIT_SUCCESS;
 }

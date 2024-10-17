@@ -24,4 +24,4 @@ bool check_bloom() {
   return rate < 0.00019;
 }
 
-int main() { return check_bloom() ? EXIT_SUCCESS : EXIT_FAILURE; }
+int main(void) { return check_bloom() ? EXIT_SUCCESS : EXIT_FAILURE; }

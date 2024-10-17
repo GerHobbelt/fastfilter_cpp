@@ -53,7 +53,7 @@ void stream_construction_benchmark(size_t start_size, size_t max_size,
     std::cout << std::endl;
   }
 }
-int main() {
+int main(void) {
   stream_construction_benchmark(100, 100'000, 200);
   return EXIT_SUCCESS;
 }
